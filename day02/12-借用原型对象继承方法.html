@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //借用父构造函数继承属性
+        function Father(uname,age)
+        {
+            this.uname=uname;
+            this.age=age;
+        }
+        Father.prototype.money=function(){
+            console.log('挣钱100');
+        }
+        function Son(uname,age,score){
+            //Father(uname,age);
+            Father.call(this,uname,age);
+            this.score=score;
+        }
+        Son.prototype = new Father();
+        Son.prototype.constructor = Son;
+        Son.prototype.exam = function(){
+            console.log('孩子要考试');
+        }
+        var son = new Son('刘德华',18,100);
+        var farther = new Father('张学友',20,80);
+        console.log(son);
+        console.log(farther);
+    </script>
+</body>
+</html>
