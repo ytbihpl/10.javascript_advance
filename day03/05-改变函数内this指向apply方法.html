@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var o = {
+            name:'andy'
+        }
+        function fn(x,y){
+            console.log(this);
+            console.log(x,y);
+        }
+        fn.apply(o,['pink','green','red']);
+        fn.apply(o,[1,66,3,99,4]);
+        var arr = [1,66,3,99,4];
+        var arr1=['red','pink'];
+    //    var max = Math.max(1,2,4,12,77,32,98,21);
+    //    console.log(max);
+        var max = Math.max.apply(Math,arr);
+        var min = Math.min.apply(Math,arr);
+        console.log(max,min);
+    </script>
+</body>
+</html>
