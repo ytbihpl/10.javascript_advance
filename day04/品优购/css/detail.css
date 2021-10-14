@@ -1,0 +1,443 @@
+/* 详情页面内容 */
+
+.de-container {
+    margin-top: 20px;
+}
+
+
+/* 面包屑导航 */
+
+.crumb_wrap a {
+    margin-right: 15px;
+}
+
+.crumb_wrap {
+    margin-bottom: 5px;
+}
+
+
+/* 产品介绍模块 */
+
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.preview_list {
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+
+.list-item {
+    width: 318px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.list-item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin-left: 3px;
+}
+
+.list-item li.current {
+    border-color: #8b2e49;
+}
+
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 32px;
+    margin-top: 15px;
+}
+
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png)no-repeat;
+}
+
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png)no-repeat;
+}
+
+.focus-share {
+    position: relative;
+    margin-top: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.focus-share a {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 45px;
+}
+
+.focus {
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    line-height: 20px;
+    background: url(../img/cartPanelViewIcons.png)no-repeat;
+    text-align: center;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.fenxiang {
+    background-position: -0 -152px;
+}
+
+.guangzhu {
+    background-position: -0 -49px;
+}
+
+.dueibi {
+    background-position: -0 -100px;
+}
+
+.iteminfo_wrap {
+    width: 718px;
+}
+
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.news {
+    height: 35px;
+    color: #a63d4c;
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.summary_price,
+.summary_promotion,
+.summary_stock {
+    position: relative;
+    background-color: #ffebed;
+}
+
+.price {
+    font-size: 24px;
+    color: #b9253b;
+}
+
+.summary_price a {
+    color: #a22938;
+}
+
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.num {
+    color: #2487e4;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion dd {
+    width: 548px;
+    line-height: 36px;
+}
+
+.summary_promotion dd em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #c6171e;
+    text-align: center;
+    color: #fff;
+}
+
+.summary_support dd {
+    line-height: 36px;
+}
+
+.summary_stock {
+    padding: 0;
+    background-color: #fefefe;
+}
+
+.summary_stock dd {
+    width: 440px;
+    line-height: 36px;
+    background-color: #fff;
+}
+
+.summary_stock dd a {
+    font-size: 18px;
+    font-family: 'icomoon';
+}
+
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: solid 1px #dcdcdc;
+    text-align: center;
+    line-height: 41px;
+}
+
+.summary a.current {
+    border-color: #a22938;
+}
+
+.choose_version {
+    margin: 5px 0;
+}
+
+.purchase_method {
+    margin: 5px 0;
+}
+
+.choose_version a,
+.choose_capacity a,
+.purchase_method a,
+.coordinates_suit a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 15px;
+    background-color: #f7f7f7;
+    border: solid 1px #dcdcdc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.choose_but {
+    margin: 20px 10px;
+}
+
+.choose_amount {
+    position: relative;
+    width: 50px;
+    height: 46px;
+    background-color: pink;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #cdcdcd;
+    line-height: 44px;
+    text-align: center;
+}
+
+.add,
+.reduce {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    background-color: #f5f5f5;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+}
+
+.add {
+    top: 0;
+}
+
+.reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.addshopcar {
+    width: 142px;
+    height: 46px;
+    background-color: #c7171a;
+    margin: 0 10px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* product-detail产品细节模块 */
+
+.product-detail {
+    margin-bottom: 50px;
+}
+
+.aside {
+    width: 208px;
+    border: solid 1px #ccc;
+}
+
+.tab_list {
+    overflow: hidden;
+    height: 34px;
+}
+
+.tab_list li {
+    float: left;
+    height: 33px;
+    background-color: #f1f1f1;
+    border-bottom: solid 1px #ccc;
+    line-height: 33px;
+    text-align: center;
+}
+
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: red;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.catalog_list ul {
+    margin: 0 10px;
+}
+
+.catalog_list li {
+    width: 188px;
+    height: 22px;
+    margin-top: 6px;
+}
+
+.catalog_list a {
+    display: inline-block;
+    width: 82px;
+    height: 22px;
+    padding-left: 10px;
+}
+
+.list1 {
+    border-bottom: 2px solid #ccc;
+}
+
+.list2 {
+    border-bottom: 1px dashed #ccc;
+}
+
+.list3 {
+    border-bottom: 1px dotted #ccc;
+}
+
+.list4 {
+    border-bottom: 1px solid #ccc;
+}
+
+.catalog_list6 li {
+    margin: 5px 10px;
+    width: 178px;
+    height: 22px;
+    margin-top: 6px;
+    padding-left: 10px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.tab_con {
+    margin: 10px;
+}
+
+.tab_con li {
+    border-top: 1px solid #ccc;
+}
+
+.tab_con h5 {
+    /* 文字强制一行显示 */
+    white-space: nowrap;
+    overflow: hidden;
+    /* 溢出文字省略号显示 */
+    text-overflow: ellipsis;
+}
+
+.aside_price {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.as_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    background-color: #f3f3f3;
+    border: solid 1px #ccc;
+    margin: 10px auto;
+    line-height: 26px;
+    text-align: center;
+}
+
+.detail {
+    width: 978px;
+}
+
+.detail-tab-list {
+    height: 39px;
+    background-color: #f1f1f1;
+    border: solid 1px #ccc;
+}
+
+.detail-tab-list li {
+    float: left;
+    height: 39px;
+    background-color: #f1f1f1;
+    padding: 0 20px;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detail-tab-list .current {
+    background-color: #c6181a;
+    color: #fff;
+}
+
+.item-info {
+    margin: 20px;
+}
+
+.item-info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-family: 'icomoon';
+}
