@@ -9,16 +9,7 @@
 <body>
     <script>
         var arr=['red','green','blue','pink'];
-        // arr.forEach(function(value){
-        //     if(value=='green')
-        //     {
-        //         console.log('找到了该元素');
-        //         return true;
-        //     }
-        //     console.log(11);
-        // })
-
-        arr.some(function(value){
+        arr.forEach(function(value){
             if(value=='green')
             {
                 console.log('找到了该元素');
@@ -26,6 +17,16 @@
             }
             console.log(11);
         })
+
+
+        // arr.some(function(value){
+        //     if(value=='green')
+        //     {
+        //         console.log('找到了该元素');
+        //         return true;
+        //     }
+        //     console.log(11);
+        // })
 
         // arr.filter(function(value){
         //     if(value=='green')
